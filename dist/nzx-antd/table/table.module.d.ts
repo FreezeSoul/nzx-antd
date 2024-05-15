@@ -1,0 +1,37 @@
+import { ModuleWithProviders } from '@angular/core';
+import { TableWidgetService, TableWidget } from './table-widget.service';
+import * as i0 from "@angular/core";
+import * as i1 from "./table.component";
+import * as i2 from "./header/table-header/table-header.component";
+import * as i3 from "./header/column-setting/column-setting.component";
+import * as i4 from "./transform/col-format.pipe";
+import * as i5 from "./transform/col-span.pipe";
+import * as i6 from "./transform/col-button-visible.pipe";
+import * as i7 from "./transform/has-auth.pipe";
+import * as i8 from "./table-widget.directive";
+import * as i9 from "./transform/col-buttons.pipe";
+import * as i10 from "@angular/common";
+import * as i11 from "@angular/forms";
+import * as i12 from "ng-zorro-antd/table";
+import * as i13 from "ng-zorro-antd/resizable";
+import * as i14 from "ng-zorro-antd/icon";
+import * as i15 from "ng-zorro-antd/popover";
+import * as i16 from "ng-zorro-antd/checkbox";
+import * as i17 from "@angular/cdk/drag-drop";
+import * as i18 from "ng-zorro-antd/divider";
+import * as i19 from "ng-zorro-antd/dropdown";
+import * as i20 from "ng-zorro-antd/tooltip";
+import * as i21 from "@xmagic/nzx-antd/pipe";
+import * as i22 from "@xmagic/nzx-antd/service";
+import * as i23 from "ng-zorro-antd/core/outlet";
+import * as i24 from "ng-zorro-antd/button";
+import * as i25 from "@xmagic/nzx-antd/directive";
+import * as i26 from "./table-widget/table-widget.module";
+export declare class NzxTableModule {
+    service: TableWidgetService;
+    constructor(service: TableWidgetService, widgets?: TableWidget[][]);
+    static forChild(config?: TableWidget[]): ModuleWithProviders<NzxTableModule>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<NzxTableModule, [null, { optional: true; }]>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<NzxTableModule, [typeof i1.NzxTableComponent, typeof i2.NzxTableHeaderComponent, typeof i3.NzxColumnSettingComponent, typeof i4.ColFormatPipe, typeof i5.ColSpanPipe, typeof i6.ColButtonVisiblePipe, typeof i7.HasAuthPipe, typeof i8.TableWidgetDirective, typeof i9.ColButtonsPipe], [typeof i10.CommonModule, typeof i11.FormsModule, typeof i11.ReactiveFormsModule, typeof i12.NzTableModule, typeof i13.NzResizableModule, typeof i14.NzIconModule, typeof i15.NzPopoverModule, typeof i16.NzCheckboxModule, typeof i17.DragDropModule, typeof i18.NzDividerModule, typeof i19.NzDropDownModule, typeof i20.NzToolTipModule, typeof i21.NzxPipeModule, typeof i22.NzxServiceModule, typeof i23.NzOutletModule, typeof i24.NzButtonModule, typeof i25.NzxDirectiveModule, typeof i26.TableWidgetModule], [typeof i1.NzxTableComponent, typeof i2.NzxTableHeaderComponent, typeof i3.NzxColumnSettingComponent]>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<NzxTableModule>;
+}

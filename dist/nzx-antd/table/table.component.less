@@ -1,0 +1,117 @@
+@import '../base';
+@table-padding-vertical-mini: 4px;
+@table-padding-horizontal-mini: 4px;
+@table-font-size-mini: 14px;
+@table-striped-bgcolor: @table-row-hover-bg;
+
+.table-size(~'mini', @table-padding-vertical-mini, @table-padding-horizontal-mini, @table-font-size-mini);
+
+.@{table-prefix-cls}-mini {
+  .@{table-prefix-cls}-thead > tr > th {
+    background-color: @table-header-bg-sm;
+  }
+  .@{table-prefix-cls}-selection-column {
+    width: 46px;
+    min-width: 46px;
+  }
+}
+
+@nzx-table-prefix-cls: ~'@{nzx-prefix}-table';
+
+.@{nzx-table-prefix-cls} {
+  &-striped-tbody > tr:nth-of-type(even):not(.ant-table-placeholder) > td {
+    background: @table-striped-bgcolor;
+  }
+
+  &-fit {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .nzx-inner-table{
+      width: 100%;
+      flex: 1;
+      display: flex;
+
+      .ant-spin-nested-loading{
+        width: 100%;
+      }
+      .ant-spin-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        >.ant-table {
+          width: 100%;
+          flex: 1;
+          position: relative;
+
+          .ant-table-container{
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .ant-table-column-title {
+    position: initial;
+  }
+  .nz-resizable-handle-right {
+    width: 8px;
+    right: 0;
+  }
+
+  .ant-table:not(.ant-table-bordered) .ant-table-thead > tr > th:not(:last-child) .nz-resizable-handle-right:after {
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    background: #e8e8e8;
+    right: 0;
+    height: 18px;
+    top: 50%;
+    margin-top: -9px;
+  }
+
+  .ant-table.ant-table-bordered .ant-table-thead > tr > th:not(:last-child) .nz-resizable-handle-right:after {
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    right: 0;
+    height: 18px;
+    top: 50%;
+    margin-top: -9px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+  }
+  &__title {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    > * {
+      margin-right: 8px;
+    }
+  }
+
+  &__toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    > * {
+      margin-right: 8px;
+    }
+    .anticon[tabindex] {
+      cursor: pointer;
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+import { Pipe } from '@angular/core';
+import * as i0 from "@angular/core";
+export class TimeUnitPipe {
+    transform(value, unit) {
+        if (value == null) {
+            return null;
+        }
+        const second = unit === 's' ? value : Math.floor(value / 1000);
+        const days = Math.floor(second / 86400);
+        const hours = Math.floor((second % 86400) / 3600);
+        const minutes = Math.floor(((second % 86400) % 3600) / 60);
+        const seconds = Math.floor(((second % 86400) % 3600) % 60);
+        const units = ['天', '小时', '分', '秒'];
+        const format = [days, hours, minutes, seconds].reduce((str, v, i) => (v ? str + v + units[i] : str), '');
+        return format || '0秒';
+    }
+    static ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: TimeUnitPipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe });
+    static ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "14.0.0", version: "16.2.12", ngImport: i0, type: TimeUnitPipe, name: "timeUnit" });
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: TimeUnitPipe, decorators: [{
+            type: Pipe,
+            args: [{
+                    name: 'timeUnit',
+                    pure: true
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGltZS11bml0LnBpcGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9saWIvcGlwZS90aW1lLXVuaXQucGlwZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsSUFBSSxFQUFpQixNQUFNLGVBQWUsQ0FBQzs7QUFNcEQsTUFBTSxPQUFPLFlBQVk7SUFDdkIsU0FBUyxDQUFDLEtBQWdDLEVBQUUsSUFBZ0I7UUFDMUQsSUFBSSxLQUFLLElBQUksSUFBSSxFQUFFO1lBQ2pCLE9BQU8sSUFBSSxDQUFDO1NBQ2I7UUFFRCxNQUFNLE1BQU0sR0FBRyxJQUFJLEtBQUssR0FBRyxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsS0FBSyxHQUFHLElBQUksQ0FBQyxDQUFDO1FBQy9ELE1BQU0sSUFBSSxHQUFHLElBQUksQ0FBQyxLQUFLLENBQUMsTUFBTSxHQUFHLEtBQUssQ0FBQyxDQUFDO1FBQ3hDLE1BQU0sS0FBSyxHQUFHLElBQUksQ0FBQyxLQUFLLENBQUMsQ0FBQyxNQUFNLEdBQUcsS0FBSyxDQUFDLEdBQUcsSUFBSSxDQUFDLENBQUM7UUFDbEQsTUFBTSxPQUFPLEdBQUcsSUFBSSxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsTUFBTSxHQUFHLEtBQUssQ0FBQyxHQUFHLElBQUksQ0FBQyxHQUFHLEVBQUUsQ0FBQyxDQUFDO1FBQzNELE1BQU0sT0FBTyxHQUFHLElBQUksQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLE1BQU0sR0FBRyxLQUFLLENBQUMsR0FBRyxJQUFJLENBQUMsR0FBRyxFQUFFLENBQUMsQ0FBQztRQUUzRCxNQUFNLEtBQUssR0FBRyxDQUFDLEdBQUcsRUFBRSxJQUFJLEVBQUUsR0FBRyxFQUFFLEdBQUcsQ0FBQyxDQUFDO1FBQ3BDLE1BQU0sTUFBTSxHQUFHLENBQUMsSUFBSSxFQUFFLEtBQUssRUFBRSxPQUFPLEVBQUUsT0FBTyxDQUFDLENBQUMsTUFBTSxDQUFDLENBQUMsR0FBRyxFQUFFLENBQUMsRUFBRSxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxHQUFHLEdBQUcsQ0FBQyxHQUFHLEtBQUssQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsR0FBRyxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUM7UUFDekcsT0FBTyxNQUFNLElBQUksSUFBSSxDQUFDO0lBQ3hCLENBQUM7d0dBZlUsWUFBWTtzR0FBWixZQUFZOzs0RkFBWixZQUFZO2tCQUp4QixJQUFJO21CQUFDO29CQUNKLElBQUksRUFBRSxVQUFVO29CQUNoQixJQUFJLEVBQUUsSUFBSTtpQkFDWCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFBpcGUsIFBpcGVUcmFuc2Zvcm0gfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuXHJcbkBQaXBlKHtcclxuICBuYW1lOiAndGltZVVuaXQnLFxyXG4gIHB1cmU6IHRydWVcclxufSlcclxuZXhwb3J0IGNsYXNzIFRpbWVVbml0UGlwZSBpbXBsZW1lbnRzIFBpcGVUcmFuc2Zvcm0ge1xyXG4gIHRyYW5zZm9ybSh2YWx1ZTogbnVtYmVyIHwgdW5kZWZpbmVkIHwgbnVsbCwgdW5pdDogJ3MnIHwgJ21zJyk6IHN0cmluZyB8IG51bGwge1xyXG4gICAgaWYgKHZhbHVlID09IG51bGwpIHtcclxuICAgICAgcmV0dXJuIG51bGw7XHJcbiAgICB9XHJcblxyXG4gICAgY29uc3Qgc2Vjb25kID0gdW5pdCA9PT0gJ3MnID8gdmFsdWUgOiBNYXRoLmZsb29yKHZhbHVlIC8gMTAwMCk7XHJcbiAgICBjb25zdCBkYXlzID0gTWF0aC5mbG9vcihzZWNvbmQgLyA4NjQwMCk7XHJcbiAgICBjb25zdCBob3VycyA9IE1hdGguZmxvb3IoKHNlY29uZCAlIDg2NDAwKSAvIDM2MDApO1xyXG4gICAgY29uc3QgbWludXRlcyA9IE1hdGguZmxvb3IoKChzZWNvbmQgJSA4NjQwMCkgJSAzNjAwKSAvIDYwKTtcclxuICAgIGNvbnN0IHNlY29uZHMgPSBNYXRoLmZsb29yKCgoc2Vjb25kICUgODY0MDApICUgMzYwMCkgJSA2MCk7XHJcblxyXG4gICAgY29uc3QgdW5pdHMgPSBbJ+WkqScsICflsI/ml7YnLCAn5YiGJywgJ+enkiddO1xyXG4gICAgY29uc3QgZm9ybWF0ID0gW2RheXMsIGhvdXJzLCBtaW51dGVzLCBzZWNvbmRzXS5yZWR1Y2UoKHN0ciwgdiwgaSkgPT4gKHYgPyBzdHIgKyB2ICsgdW5pdHNbaV0gOiBzdHIpLCAnJyk7XHJcbiAgICByZXR1cm4gZm9ybWF0IHx8ICcw56eSJztcclxuICB9XHJcbn1cclxuIl19

@@ -1,0 +1,42 @@
+@import '../base.less';
+@nzx-between-prefix: ~'@{nzx-prefix}-between';
+
+.@{nzx-between-prefix}{
+  display: flex !important;
+
+  > :first-child, .between-start {
+    border-right-color: transparent;
+    flex: 1;
+    .ant-select-selector{
+      border-right-color: transparent;
+    }
+  }
+
+  > :last-child, .between-end {
+    border-left-color: transparent;
+    flex: 1;
+    .ant-select-selector{
+      border-left-color: transparent;
+    }
+  }
+
+  &:not(.@{nzx-between-prefix}-disabled) {
+    .@{nzx-between-prefix}-placeholder{
+      background-color: #fff !important;
+    }
+  }
+  &-placeholder {
+    width: 20px !important;
+    border-left: none;
+    border-right: none;
+    pointer-events: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+}
+
+.ant-form-item-has-error .@{nzx-between-prefix}-placeholder{
+  border-top-color: @error-color;
+  border-bottom-color: @error-color;
+}
