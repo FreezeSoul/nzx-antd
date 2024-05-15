@@ -1,6 +1,6 @@
 {
-  "name": "@xmagic/nzx-antd",
-  "version": "17.0.12",
+  "name": "@freezesoul/nzx-antd",
+  "version": "17.0.13",
   "repository": {
     "type": "git",
     "url": "https://github.com/m310851010/nzx-antd.git"
@@ -28,11 +28,11 @@
       "esm": "./esm2022/between/xmagic-nzx-antd-between.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-between.mjs"
     },
-    "./between-time": {
-      "types": "./between-time/index.d.ts",
-      "esm2022": "./esm2022/between-time/xmagic-nzx-antd-between-time.mjs",
-      "esm": "./esm2022/between-time/xmagic-nzx-antd-between-time.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-between-time.mjs"
+    "./between-input": {
+      "types": "./between-input/index.d.ts",
+      "esm2022": "./esm2022/between-input/xmagic-nzx-antd-between-input.mjs",
+      "esm": "./esm2022/between-input/xmagic-nzx-antd-between-input.mjs",
+      "default": "./fesm2022/xmagic-nzx-antd-between-input.mjs"
     },
     "./between-datetime": {
       "types": "./between-datetime/index.d.ts",
@@ -40,11 +40,11 @@
       "esm": "./esm2022/between-datetime/xmagic-nzx-antd-between-datetime.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-between-datetime.mjs"
     },
-    "./between-input": {
-      "types": "./between-input/index.d.ts",
-      "esm2022": "./esm2022/between-input/xmagic-nzx-antd-between-input.mjs",
-      "esm": "./esm2022/between-input/xmagic-nzx-antd-between-input.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-between-input.mjs"
+    "./between-time": {
+      "types": "./between-time/index.d.ts",
+      "esm2022": "./esm2022/between-time/xmagic-nzx-antd-between-time.mjs",
+      "esm": "./esm2022/between-time/xmagic-nzx-antd-between-time.mjs",
+      "default": "./fesm2022/xmagic-nzx-antd-between-time.mjs"
     },
     "./checkbox": {
       "types": "./checkbox/index.d.ts",
@@ -52,17 +52,17 @@
       "esm": "./esm2022/checkbox/xmagic-nzx-antd-checkbox.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-checkbox.mjs"
     },
-    "./directive": {
-      "types": "./directive/index.d.ts",
-      "esm2022": "./esm2022/directive/xmagic-nzx-antd-directive.mjs",
-      "esm": "./esm2022/directive/xmagic-nzx-antd-directive.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-directive.mjs"
-    },
     "./button": {
       "types": "./button/index.d.ts",
       "esm2022": "./esm2022/button/xmagic-nzx-antd-button.mjs",
       "esm": "./esm2022/button/xmagic-nzx-antd-button.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-button.mjs"
+    },
+    "./directive": {
+      "types": "./directive/index.d.ts",
+      "esm2022": "./esm2022/directive/xmagic-nzx-antd-directive.mjs",
+      "esm": "./esm2022/directive/xmagic-nzx-antd-directive.mjs",
+      "default": "./fesm2022/xmagic-nzx-antd-directive.mjs"
     },
     "./http-interceptor": {
       "types": "./http-interceptor/index.d.ts",
@@ -82,17 +82,17 @@
       "esm": "./esm2022/modal/xmagic-nzx-antd-modal.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-modal.mjs"
     },
-    "./repeat": {
-      "types": "./repeat/index.d.ts",
-      "esm2022": "./esm2022/repeat/xmagic-nzx-antd-repeat.mjs",
-      "esm": "./esm2022/repeat/xmagic-nzx-antd-repeat.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-repeat.mjs"
-    },
     "./pipe": {
       "types": "./pipe/index.d.ts",
       "esm2022": "./esm2022/pipe/xmagic-nzx-antd-pipe.mjs",
       "esm": "./esm2022/pipe/xmagic-nzx-antd-pipe.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-pipe.mjs"
+    },
+    "./repeat": {
+      "types": "./repeat/index.d.ts",
+      "esm2022": "./esm2022/repeat/xmagic-nzx-antd-repeat.mjs",
+      "esm": "./esm2022/repeat/xmagic-nzx-antd-repeat.mjs",
+      "default": "./fesm2022/xmagic-nzx-antd-repeat.mjs"
     },
     "./service": {
       "types": "./service/index.d.ts",
@@ -112,17 +112,17 @@
       "esm": "./esm2022/table/xmagic-nzx-antd-table.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-table.mjs"
     },
-    "./util": {
-      "types": "./util/index.d.ts",
-      "esm2022": "./esm2022/util/xmagic-nzx-antd-util.mjs",
-      "esm": "./esm2022/util/xmagic-nzx-antd-util.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-util.mjs"
-    },
     "./upload": {
       "types": "./upload/index.d.ts",
       "esm2022": "./esm2022/upload/xmagic-nzx-antd-upload.mjs",
       "esm": "./esm2022/upload/xmagic-nzx-antd-upload.mjs",
       "default": "./fesm2022/xmagic-nzx-antd-upload.mjs"
+    },
+    "./util": {
+      "types": "./util/index.d.ts",
+      "esm2022": "./esm2022/util/xmagic-nzx-antd-util.mjs",
+      "esm": "./esm2022/util/xmagic-nzx-antd-util.mjs",
+      "default": "./fesm2022/xmagic-nzx-antd-util.mjs"
     }
   },
   "sideEffects": false,
