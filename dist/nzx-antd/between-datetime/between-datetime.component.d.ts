@@ -3,7 +3,7 @@ import { ControlValueAccessor } from '@angular/forms';
 import { DisabledTimeFn, CompatibleDate, SupportTimeOptions, NzDateMode, DisabledTimeConfig } from 'ng-zorro-antd/date-picker';
 import { FunctionProp, NzSafeAny } from 'ng-zorro-antd/core/types';
 import { NzDatePickerI18nInterface } from 'ng-zorro-antd/i18n';
-import { NzxBetweenComponent } from '@xmagic/nzx-antd/between';
+import { NzxBetweenComponent } from '@freezesoul/nzx-antd/between';
 import { DatetimeValueType, DisabledDateType } from './datetime-utils';
 import * as i0 from "@angular/core";
 /**

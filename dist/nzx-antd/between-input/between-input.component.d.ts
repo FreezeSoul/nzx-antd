@@ -1,6 +1,6 @@
 import { ChangeDetectorRef } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
-import { NzxBetweenComponent } from '@xmagic/nzx-antd/between';
+import { NzxBetweenComponent } from '@freezesoul/nzx-antd/between';
 import { NzInputNumberComponent } from 'ng-zorro-antd/input-number';
 import * as i0 from "@angular/core";
 export declare class NzxBetweenInputComponent extends NzxBetweenComponent implements ControlValueAccessor {

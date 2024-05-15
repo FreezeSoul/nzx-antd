@@ -1,7 +1,7 @@
 import { AfterViewInit, ChangeDetectorRef, TemplateRef } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
 import { NzSafeAny, NzSizeDSType } from 'ng-zorro-antd/core/types';
-import { BaseControl } from '@xmagic/nzx-antd/util';
+import { BaseControl } from '@freezesoul/nzx-antd/util';
 import { NzSwitchComponent } from 'ng-zorro-antd/switch';
 import * as i0 from "@angular/core";
 export declare class NzxSwitchComponent extends BaseControl<NzSafeAny> implements ControlValueAccessor, AfterViewInit {

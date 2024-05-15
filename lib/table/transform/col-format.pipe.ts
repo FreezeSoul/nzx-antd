@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
 import { CellArgType, NzxColumn } from '../table.type';
 import { Observable } from 'rxjs';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 
 @Pipe({
   name: 'colFormat'

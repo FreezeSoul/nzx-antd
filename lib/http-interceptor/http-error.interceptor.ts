@@ -4,7 +4,7 @@ import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { HttpError } from './http.model';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 
 /**
  * http 请求发生错误后进行处理

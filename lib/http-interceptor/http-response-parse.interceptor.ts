@@ -10,8 +10,8 @@ import {
 import { Observable, Subscriber } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { HttpError, ResponseModel } from './http.model';
-import { DEFAULT_RESPONSE_SETTING, NzxAntdService, ResponseSetting } from '@xmagic/nzx-antd';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { DEFAULT_RESPONSE_SETTING, NzxAntdService, ResponseSetting } from '@freezesoul/nzx-antd';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
 
 /**

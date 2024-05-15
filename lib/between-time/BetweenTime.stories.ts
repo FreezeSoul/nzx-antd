@@ -1,6 +1,6 @@
 import { moduleMetadata, Story, Meta } from '@storybook/angular';
 import { NzxBetweenTimeComponent } from './between-time.component';
-import { NzxBetweenModule } from '@xmagic/nzx-antd/between';
+import { NzxBetweenModule } from '@freezesoul/nzx-antd/between';
 import { EXCLUDE_PARAMS, hideControlArgType, SIZE_ARG_TYPE, storyFactory } from '@stories';
 import { NzTimePickerModule } from 'ng-zorro-antd/time-picker';
 

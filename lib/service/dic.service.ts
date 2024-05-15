@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { OptionItem } from '@xmagic/nzx-antd/checkbox';
+import { OptionItem } from '@freezesoul/nzx-antd/checkbox';
 import { map, Observable, of, shareReplay, tap } from 'rxjs';
 import { HttpClient, HttpContext } from '@angular/common/http';
-import { Any, DicSetting, NzxAntdService } from '@xmagic/nzx-antd';
+import { Any, DicSetting, NzxAntdService } from '@freezesoul/nzx-antd';
 import { LOADING_ENABLED, SYNCED_ENABLED } from './fetcher.service';
 import { finalize } from 'rxjs/operators';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 
 @Injectable({
   providedIn: 'root'

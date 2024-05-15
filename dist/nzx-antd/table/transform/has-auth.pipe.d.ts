@@ -1,6 +1,6 @@
 import { PipeTransform } from '@angular/core';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 import { Observable } from 'rxjs';
 import * as i0 from "@angular/core";
 export declare class HasAuthPipe implements PipeTransform {

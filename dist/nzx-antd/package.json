@@ -1,6 +1,6 @@
 {
   "name": "@freezesoul/nzx-antd",
-  "version": "17.0.13",
+  "version": "17.0.15",
   "repository": {
     "type": "git",
     "url": "https://github.com/m310851010/nzx-antd.git"
@@ -10,7 +10,7 @@
     "access": "public"
   },
   "license": "MIT",
-  "module": "fesm2022/xmagic-nzx-antd.mjs",
+  "module": "fesm2022/freezesoul-nzx-antd.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -18,111 +18,111 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/xmagic-nzx-antd.mjs",
-      "esm": "./esm2022/xmagic-nzx-antd.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd.mjs"
+      "esm2022": "./esm2022/freezesoul-nzx-antd.mjs",
+      "esm": "./esm2022/freezesoul-nzx-antd.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd.mjs"
     },
     "./between": {
       "types": "./between/index.d.ts",
-      "esm2022": "./esm2022/between/xmagic-nzx-antd-between.mjs",
-      "esm": "./esm2022/between/xmagic-nzx-antd-between.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-between.mjs"
+      "esm2022": "./esm2022/between/freezesoul-nzx-antd-between.mjs",
+      "esm": "./esm2022/between/freezesoul-nzx-antd-between.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-between.mjs"
     },
     "./between-input": {
       "types": "./between-input/index.d.ts",
-      "esm2022": "./esm2022/between-input/xmagic-nzx-antd-between-input.mjs",
-      "esm": "./esm2022/between-input/xmagic-nzx-antd-between-input.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-between-input.mjs"
+      "esm2022": "./esm2022/between-input/freezesoul-nzx-antd-between-input.mjs",
+      "esm": "./esm2022/between-input/freezesoul-nzx-antd-between-input.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-between-input.mjs"
     },
     "./between-datetime": {
       "types": "./between-datetime/index.d.ts",
-      "esm2022": "./esm2022/between-datetime/xmagic-nzx-antd-between-datetime.mjs",
-      "esm": "./esm2022/between-datetime/xmagic-nzx-antd-between-datetime.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-between-datetime.mjs"
-    },
-    "./between-time": {
-      "types": "./between-time/index.d.ts",
-      "esm2022": "./esm2022/between-time/xmagic-nzx-antd-between-time.mjs",
-      "esm": "./esm2022/between-time/xmagic-nzx-antd-between-time.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-between-time.mjs"
+      "esm2022": "./esm2022/between-datetime/freezesoul-nzx-antd-between-datetime.mjs",
+      "esm": "./esm2022/between-datetime/freezesoul-nzx-antd-between-datetime.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-between-datetime.mjs"
     },
     "./checkbox": {
       "types": "./checkbox/index.d.ts",
-      "esm2022": "./esm2022/checkbox/xmagic-nzx-antd-checkbox.mjs",
-      "esm": "./esm2022/checkbox/xmagic-nzx-antd-checkbox.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-checkbox.mjs"
+      "esm2022": "./esm2022/checkbox/freezesoul-nzx-antd-checkbox.mjs",
+      "esm": "./esm2022/checkbox/freezesoul-nzx-antd-checkbox.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-checkbox.mjs"
     },
-    "./button": {
-      "types": "./button/index.d.ts",
-      "esm2022": "./esm2022/button/xmagic-nzx-antd-button.mjs",
-      "esm": "./esm2022/button/xmagic-nzx-antd-button.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-button.mjs"
+    "./between-time": {
+      "types": "./between-time/index.d.ts",
+      "esm2022": "./esm2022/between-time/freezesoul-nzx-antd-between-time.mjs",
+      "esm": "./esm2022/between-time/freezesoul-nzx-antd-between-time.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-between-time.mjs"
     },
     "./directive": {
       "types": "./directive/index.d.ts",
-      "esm2022": "./esm2022/directive/xmagic-nzx-antd-directive.mjs",
-      "esm": "./esm2022/directive/xmagic-nzx-antd-directive.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-directive.mjs"
+      "esm2022": "./esm2022/directive/freezesoul-nzx-antd-directive.mjs",
+      "esm": "./esm2022/directive/freezesoul-nzx-antd-directive.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-directive.mjs"
     },
     "./http-interceptor": {
       "types": "./http-interceptor/index.d.ts",
-      "esm2022": "./esm2022/http-interceptor/xmagic-nzx-antd-http-interceptor.mjs",
-      "esm": "./esm2022/http-interceptor/xmagic-nzx-antd-http-interceptor.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-http-interceptor.mjs"
+      "esm2022": "./esm2022/http-interceptor/freezesoul-nzx-antd-http-interceptor.mjs",
+      "esm": "./esm2022/http-interceptor/freezesoul-nzx-antd-http-interceptor.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-http-interceptor.mjs"
     },
-    "./layout-page": {
-      "types": "./layout-page/index.d.ts",
-      "esm2022": "./esm2022/layout-page/xmagic-nzx-antd-layout-page.mjs",
-      "esm": "./esm2022/layout-page/xmagic-nzx-antd-layout-page.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-layout-page.mjs"
+    "./button": {
+      "types": "./button/index.d.ts",
+      "esm2022": "./esm2022/button/freezesoul-nzx-antd-button.mjs",
+      "esm": "./esm2022/button/freezesoul-nzx-antd-button.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-button.mjs"
     },
     "./modal": {
       "types": "./modal/index.d.ts",
-      "esm2022": "./esm2022/modal/xmagic-nzx-antd-modal.mjs",
-      "esm": "./esm2022/modal/xmagic-nzx-antd-modal.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-modal.mjs"
+      "esm2022": "./esm2022/modal/freezesoul-nzx-antd-modal.mjs",
+      "esm": "./esm2022/modal/freezesoul-nzx-antd-modal.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-modal.mjs"
+    },
+    "./layout-page": {
+      "types": "./layout-page/index.d.ts",
+      "esm2022": "./esm2022/layout-page/freezesoul-nzx-antd-layout-page.mjs",
+      "esm": "./esm2022/layout-page/freezesoul-nzx-antd-layout-page.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-layout-page.mjs"
     },
     "./pipe": {
       "types": "./pipe/index.d.ts",
-      "esm2022": "./esm2022/pipe/xmagic-nzx-antd-pipe.mjs",
-      "esm": "./esm2022/pipe/xmagic-nzx-antd-pipe.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-pipe.mjs"
-    },
-    "./repeat": {
-      "types": "./repeat/index.d.ts",
-      "esm2022": "./esm2022/repeat/xmagic-nzx-antd-repeat.mjs",
-      "esm": "./esm2022/repeat/xmagic-nzx-antd-repeat.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-repeat.mjs"
+      "esm2022": "./esm2022/pipe/freezesoul-nzx-antd-pipe.mjs",
+      "esm": "./esm2022/pipe/freezesoul-nzx-antd-pipe.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-pipe.mjs"
     },
     "./service": {
       "types": "./service/index.d.ts",
-      "esm2022": "./esm2022/service/xmagic-nzx-antd-service.mjs",
-      "esm": "./esm2022/service/xmagic-nzx-antd-service.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-service.mjs"
+      "esm2022": "./esm2022/service/freezesoul-nzx-antd-service.mjs",
+      "esm": "./esm2022/service/freezesoul-nzx-antd-service.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-service.mjs"
     },
-    "./switch": {
-      "types": "./switch/index.d.ts",
-      "esm2022": "./esm2022/switch/xmagic-nzx-antd-switch.mjs",
-      "esm": "./esm2022/switch/xmagic-nzx-antd-switch.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-switch.mjs"
+    "./repeat": {
+      "types": "./repeat/index.d.ts",
+      "esm2022": "./esm2022/repeat/freezesoul-nzx-antd-repeat.mjs",
+      "esm": "./esm2022/repeat/freezesoul-nzx-antd-repeat.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-repeat.mjs"
     },
     "./table": {
       "types": "./table/index.d.ts",
-      "esm2022": "./esm2022/table/xmagic-nzx-antd-table.mjs",
-      "esm": "./esm2022/table/xmagic-nzx-antd-table.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-table.mjs"
+      "esm2022": "./esm2022/table/freezesoul-nzx-antd-table.mjs",
+      "esm": "./esm2022/table/freezesoul-nzx-antd-table.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-table.mjs"
+    },
+    "./switch": {
+      "types": "./switch/index.d.ts",
+      "esm2022": "./esm2022/switch/freezesoul-nzx-antd-switch.mjs",
+      "esm": "./esm2022/switch/freezesoul-nzx-antd-switch.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-switch.mjs"
     },
     "./upload": {
       "types": "./upload/index.d.ts",
-      "esm2022": "./esm2022/upload/xmagic-nzx-antd-upload.mjs",
-      "esm": "./esm2022/upload/xmagic-nzx-antd-upload.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-upload.mjs"
+      "esm2022": "./esm2022/upload/freezesoul-nzx-antd-upload.mjs",
+      "esm": "./esm2022/upload/freezesoul-nzx-antd-upload.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-upload.mjs"
     },
     "./util": {
       "types": "./util/index.d.ts",
-      "esm2022": "./esm2022/util/xmagic-nzx-antd-util.mjs",
-      "esm": "./esm2022/util/xmagic-nzx-antd-util.mjs",
-      "default": "./fesm2022/xmagic-nzx-antd-util.mjs"
+      "esm2022": "./esm2022/util/freezesoul-nzx-antd-util.mjs",
+      "esm": "./esm2022/util/freezesoul-nzx-antd-util.mjs",
+      "default": "./fesm2022/freezesoul-nzx-antd-util.mjs"
     }
   },
   "sideEffects": false,

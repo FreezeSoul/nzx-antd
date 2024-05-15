@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { DicItem, DicService } from '@xmagic/nzx-antd/service';
+import { DicItem, DicService } from '@freezesoul/nzx-antd/service';
 import { map, Observable, of } from 'rxjs';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 
 /**
  * 字典管道

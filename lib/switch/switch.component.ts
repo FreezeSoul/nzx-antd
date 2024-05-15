@@ -10,7 +10,7 @@ import {
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { NzSafeAny, NzSizeDSType } from 'ng-zorro-antd/core/types';
-import { BaseControl } from '@xmagic/nzx-antd/util';
+import { BaseControl } from '@freezesoul/nzx-antd/util';
 import { NzSwitchComponent } from 'ng-zorro-antd/switch';
 
 @Component({

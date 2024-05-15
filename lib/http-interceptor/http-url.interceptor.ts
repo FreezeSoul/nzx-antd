@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { HttpRequestOptions, NzxAntdService } from '@xmagic/nzx-antd';
+import { HttpRequestOptions, NzxAntdService } from '@freezesoul/nzx-antd';
 
 /**
  * 处理 URL

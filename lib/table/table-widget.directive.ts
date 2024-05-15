@@ -1,7 +1,7 @@
 import { ComponentRef, Directive, Input, OnInit, Renderer2, ViewContainerRef } from '@angular/core';
 import { IndexAttr, NzxColumn, NzxWidget } from './table.type';
 import { TableWidgetService } from './table-widget.service';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 import { of } from 'rxjs';
 
 @Directive({

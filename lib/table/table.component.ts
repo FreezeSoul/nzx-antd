@@ -30,9 +30,9 @@ import {
   NzTableSortOrder
 } from 'ng-zorro-antd/table';
 import { PaginationItemRenderContext } from 'ng-zorro-antd/pagination';
-import { Any } from '@xmagic/nzx-antd';
+import { Any } from '@freezesoul/nzx-antd';
 import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 import { NzResizeEvent } from 'ng-zorro-antd/resizable';
 import {
   CellEventArg,
@@ -51,9 +51,9 @@ import { FETCH_SETTING } from './const';
 import { debounceTime, merge, Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
-import { NzxAntdService } from '@xmagic/nzx-antd';
-import { FetcherService, FetchParams } from '@xmagic/nzx-antd/service';
-import { NamedTemplate } from '@xmagic/nzx-antd/directive';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
+import { FetcherService, FetchParams } from '@freezesoul/nzx-antd/service';
+import { NamedTemplate } from '@freezesoul/nzx-antd/directive';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
 
 /**

@@ -1,7 +1,7 @@
 import { HttpErrorResponse, HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 import * as i0 from "@angular/core";
 /**
  * http 请求发生错误后进行处理

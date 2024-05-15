@@ -12,7 +12,7 @@ import * as i9 from "ng-zorro-antd/button";
 import * as i10 from "ng-zorro-antd/icon";
 import * as i11 from "ng-zorro-antd/tag";
 import * as i12 from "ng-zorro-antd/input-number";
-import * as i13 from "@xmagic/nzx-antd/switch";
+import * as i13 from "@freezesoul/nzx-antd/switch";
 export declare function defaultTableWidget(): TableWidget[];
 export declare class TableWidgetModule {
     service: TableWidgetService;

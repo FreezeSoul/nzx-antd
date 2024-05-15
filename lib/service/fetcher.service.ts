@@ -3,7 +3,7 @@ import { HttpClient, HttpContext, HttpContextToken } from '@angular/common/http'
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
 
 /**

@@ -12,9 +12,9 @@ import {
 import { NzSafeAny, NzStatus } from 'ng-zorro-antd/core/types';
 import { InputBoolean } from 'ng-zorro-antd/core/util';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { NzxBetweenComponent } from '@xmagic/nzx-antd/between';
-import { DatetimeValueType, DisabledDateType, getRealDateTime } from '@xmagic/nzx-antd/between-datetime';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxBetweenComponent } from '@freezesoul/nzx-antd/between';
+import { DatetimeValueType, DisabledDateType, getRealDateTime } from '@freezesoul/nzx-antd/between-datetime';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 
 @Component({
   selector: 'nzx-between-time',

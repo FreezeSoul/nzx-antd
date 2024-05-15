@@ -14,7 +14,7 @@ import {
   ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { BaseControl } from '@xmagic/nzx-antd/util';
+import { BaseControl } from '@freezesoul/nzx-antd/util';
 import { NgStyleInterface, NzSafeAny, NgClassType } from 'ng-zorro-antd/core/types';
 
 /**

@@ -1,14 +1,9 @@
 
 # NzxAntd
 
-注：切换至16.x版本，下面为原版信息
+注：切换至16.x版本，原版地址：https://m310851010.github.io/nzx-antd
 
 `NzxAntd`是一个`angular`组件库，基于`ng-zorro-antd`进行二次扩展，并加入开发常用功能。全部代码开源并遵循 `MIT` 协议，任何企业、组织及个人均可免费使用。
-
-[![npm version](https://img.shields.io/npm/v/@xmagic/nzx-antd/latest.svg)](https://npmjs.com/package/@xmagic/nzx-antd)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-[![Angular](https://img.shields.io/badge/Build%20with-Angular%20CLI-red?logo=angular)](https://www.github.com/angular/angular)
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://m310851010.github.io/nzx-antd)
 
 ## ✨特性
 
@@ -31,7 +26,7 @@
 ## 📦安装
 
 ```shell
-npm i @xmagic/nzx-antd --save
+npm i @freezesoul/nzx-antd --save
 ```
 
 ## 🔨使用
@@ -46,7 +41,7 @@ npm i @xmagic/nzx-antd --save
 ```json
 {
   "styles": [
-    "node_modules/@xmagic/nzx-antd/nzx-antd.less"
+    "node_modules/@freezesoul/nzx-antd/nzx-antd.less"
   ]
 }
 ```
@@ -54,7 +49,7 @@ npm i @xmagic/nzx-antd --save
 - 在 `style.less` 中引入 `less` 样式文件
 
 ```css
-@import "node_modules/@xmagic/nzx-antd/nzx-antd.less";
+@import "node_modules/@freezesoul/nzx-antd/nzx-antd.less";
 ```
 
 ## 🍎引入模块
@@ -65,7 +60,7 @@ npm i @xmagic/nzx-antd --save
 // nzx-antd-config.service.ts
 
 import { Injectable } from '@angular/core';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 import { environment } from '../environments/environment';
 
 @Injectable({
@@ -88,9 +83,9 @@ export class NzxAntdConfigService extends NzxAntdService {
 
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { NzxModalModule } from '@xmagic/nzx-antd/modal';
-import { NzxHttpInterceptorModule } from '@xmagic/nzx-antd/http-interceptor';
-+import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxModalModule } from '@freezesoul/nzx-antd/modal';
+import { NzxHttpInterceptorModule } from '@freezesoul/nzx-antd/http-interceptor';
++import { NzxAntdService } from '@freezesoul/nzx-antd';
 +import { NzxAntdConfigService } from './nzx-antd-config.service';
 
 @NgModule({
@@ -112,10 +107,10 @@ export class AppComponent {}
 //app.component.ts
 
 import { Component, OnInit } from '@angular/core';
-import { HttpLoadingService, LogoutService } from '@xmagic/nzx-antd/http-interceptor';
+import { HttpLoadingService, LogoutService } from '@freezesoul/nzx-antd/http-interceptor';
 import { NzMessageService } from 'ng-zorro-antd/message';
-import { NzxModalWrapService } from '@xmagic/nzx-antd/modal';
-import { loadingService } from '@xmagic/nzx-antd/service';
+import { NzxModalWrapService } from '@freezesoul/nzx-antd/modal';
+import { loadingService } from '@freezesoul/nzx-antd/service';
 
 @Component({
   selector: 'app-root',

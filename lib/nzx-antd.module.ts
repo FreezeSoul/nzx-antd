@@ -1,19 +1,19 @@
 // import { NgModule } from '@angular/core';
-// import { NzxModalModule } from '@xmagic/nzx-antd/modal';
-// import { NzxDirectiveModule } from '@xmagic/nzx-antd/directive';
-// import { NzxTableModule } from '@xmagic/nzx-antd/table';
-// import { NzxPipeModule } from '@xmagic/nzx-antd/pipe';
-// import { NzxSwitchModule } from '@xmagic/nzx-antd/switch';
-// import { NzxServiceModule } from '@xmagic/nzx-antd/service';
-// import { NzxBetweenModule } from '@xmagic/nzx-antd/between';
-// import { NzxBetweenInputModule } from '@xmagic/nzx-antd/between-input';
-// import { NzxCheckboxModule } from '@xmagic/nzx-antd/checkbox';
-// import { NzxUploadModule } from '@xmagic/nzx-antd/upload';
-// import { NzxBetweenDatetimeModule } from '@xmagic/nzx-antd/between-datetime';
-// import { NzxBetweenTimeModule } from '@xmagic/nzx-antd/between-time';
-// import { NzxHttpInterceptorModule } from '@xmagic/nzx-antd/http-interceptor';
-// import { NzxRepeatModule } from '@xmagic/nzx-antd/repeat';
-// import { NzxLayoutPageModule } from '@xmagic/nzx-antd/layout-page';
+// import { NzxModalModule } from '@freezesoul/nzx-antd/modal';
+// import { NzxDirectiveModule } from '@freezesoul/nzx-antd/directive';
+// import { NzxTableModule } from '@freezesoul/nzx-antd/table';
+// import { NzxPipeModule } from '@freezesoul/nzx-antd/pipe';
+// import { NzxSwitchModule } from '@freezesoul/nzx-antd/switch';
+// import { NzxServiceModule } from '@freezesoul/nzx-antd/service';
+// import { NzxBetweenModule } from '@freezesoul/nzx-antd/between';
+// import { NzxBetweenInputModule } from '@freezesoul/nzx-antd/between-input';
+// import { NzxCheckboxModule } from '@freezesoul/nzx-antd/checkbox';
+// import { NzxUploadModule } from '@freezesoul/nzx-antd/upload';
+// import { NzxBetweenDatetimeModule } from '@freezesoul/nzx-antd/between-datetime';
+// import { NzxBetweenTimeModule } from '@freezesoul/nzx-antd/between-time';
+// import { NzxHttpInterceptorModule } from '@freezesoul/nzx-antd/http-interceptor';
+// import { NzxRepeatModule } from '@freezesoul/nzx-antd/repeat';
+// import { NzxLayoutPageModule } from '@freezesoul/nzx-antd/layout-page';
 //
 // @NgModule({
 //   imports: [],

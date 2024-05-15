@@ -2,7 +2,7 @@ import * as i0 from "@angular/core";
 import * as i1 from "./between-input.component";
 import * as i2 from "@angular/common";
 import * as i3 from "@angular/forms";
-import * as i4 from "@xmagic/nzx-antd/between";
+import * as i4 from "@freezesoul/nzx-antd/between";
 import * as i5 from "ng-zorro-antd/input";
 import * as i6 from "ng-zorro-antd/input-number";
 export declare class NzxBetweenInputModule {

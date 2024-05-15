@@ -1,8 +1,8 @@
 import { ChangeDetectorRef, EventEmitter, TemplateRef } from '@angular/core';
 import { NzSafeAny, NzStatus } from 'ng-zorro-antd/core/types';
 import { ControlValueAccessor } from '@angular/forms';
-import { NzxBetweenComponent } from '@xmagic/nzx-antd/between';
-import { DatetimeValueType, DisabledDateType } from '@xmagic/nzx-antd/between-datetime';
+import { NzxBetweenComponent } from '@freezesoul/nzx-antd/between';
+import { DatetimeValueType, DisabledDateType } from '@freezesoul/nzx-antd/between-datetime';
 import * as i0 from "@angular/core";
 export declare class NzxBetweenTimeComponent extends NzxBetweenComponent implements ControlValueAccessor {
     protected cdr: ChangeDetectorRef;

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NzxBetweenDatetimeComponent } from './between-datetime.component';
 import { FormsModule } from '@angular/forms';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
-import { NzxBetweenModule } from '@xmagic/nzx-antd/between';
+import { NzxBetweenModule } from '@freezesoul/nzx-antd/between';
 
 @NgModule({
   declarations: [NzxBetweenDatetimeComponent],

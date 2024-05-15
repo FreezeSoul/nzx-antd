@@ -1,5 +1,5 @@
 import { TemplateRef, ViewContainerRef } from '@angular/core';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 import { AuthContext, AuthDirective } from './auth.directive';
 import * as i0 from "@angular/core";
 /**

@@ -1,6 +1,6 @@
 import { HttpError, ResponseModel } from './http.model';
 import { Subscription } from 'rxjs';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 import * as i0 from "@angular/core";
 /**
  * 退出通知

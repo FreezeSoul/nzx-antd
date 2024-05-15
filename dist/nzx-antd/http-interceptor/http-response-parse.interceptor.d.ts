@@ -1,7 +1,7 @@
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest, HttpResponse } from '@angular/common/http';
 import { Observable, Subscriber } from 'rxjs';
 import { ResponseModel } from './http.model';
-import { NzxAntdService, ResponseSetting } from '@xmagic/nzx-antd';
+import { NzxAntdService, ResponseSetting } from '@freezesoul/nzx-antd';
 import * as i0 from "@angular/core";
 /**
  * 处理服务器返回的数据，改变其结构。

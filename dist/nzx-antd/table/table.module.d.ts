@@ -21,11 +21,11 @@ import * as i17 from "@angular/cdk/drag-drop";
 import * as i18 from "ng-zorro-antd/divider";
 import * as i19 from "ng-zorro-antd/dropdown";
 import * as i20 from "ng-zorro-antd/tooltip";
-import * as i21 from "@xmagic/nzx-antd/pipe";
-import * as i22 from "@xmagic/nzx-antd/service";
+import * as i21 from "@freezesoul/nzx-antd/pipe";
+import * as i22 from "@freezesoul/nzx-antd/service";
 import * as i23 from "ng-zorro-antd/core/outlet";
 import * as i24 from "ng-zorro-antd/button";
-import * as i25 from "@xmagic/nzx-antd/directive";
+import * as i25 from "@freezesoul/nzx-antd/directive";
 import * as i26 from "./table-widget/table-widget.module";
 export declare class NzxTableModule {
     service: TableWidgetService;

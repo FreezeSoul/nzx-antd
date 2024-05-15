@@ -1,5 +1,5 @@
 import { PipeTransform } from '@angular/core';
-import { DicItem, DicService } from '@xmagic/nzx-antd/service';
+import { DicItem, DicService } from '@freezesoul/nzx-antd/service';
 import { Observable } from 'rxjs';
 import * as i0 from "@angular/core";
 /**

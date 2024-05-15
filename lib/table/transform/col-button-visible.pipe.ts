@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { CellArgType, NzxColumnButton } from '../table.type';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
 
 @Pipe({

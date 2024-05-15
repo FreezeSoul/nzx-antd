@@ -3,8 +3,8 @@ import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/c
 import { Observable, catchError, throwError } from 'rxjs';
 import { HttpError } from './http.model';
 import { LogoutService } from './logout.service';
-import { DEFAULT_RESPONSE_SETTING, NzxAntdService, ResponseSetting } from '@xmagic/nzx-antd';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { DEFAULT_RESPONSE_SETTING, NzxAntdService, ResponseSetting } from '@freezesoul/nzx-antd';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 
 /**
  * 在 http-error-interceptor 后，进行自定义错误处理。

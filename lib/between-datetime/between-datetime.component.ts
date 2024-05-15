@@ -19,8 +19,8 @@ import {
 } from 'ng-zorro-antd/date-picker';
 import { FunctionProp, NzSafeAny } from 'ng-zorro-antd/core/types';
 import { NzDatePickerI18nInterface } from 'ng-zorro-antd/i18n';
-import { NzxBetweenComponent } from '@xmagic/nzx-antd/between';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxBetweenComponent } from '@freezesoul/nzx-antd/between';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 import {
   DatetimeValueType,
   DisabledDateType,

@@ -3,7 +3,7 @@ import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/c
 import { Observable, Subject } from 'rxjs';
 import { filter, finalize } from 'rxjs/operators';
 import { HttpLoadingService } from './http-loading.service';
-import { LOADING_ENABLED } from '@xmagic/nzx-antd/service';
+import { LOADING_ENABLED } from '@freezesoul/nzx-antd/service';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
 
 /**

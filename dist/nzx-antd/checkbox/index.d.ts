@@ -1,5 +1,5 @@
 /**
  * Generated bundle index. Do not edit.
  */
-/// <amd-module name="@xmagic/nzx-antd/checkbox" />
+/// <amd-module name="@freezesoul/nzx-antd/checkbox" />
 export * from './public-api';

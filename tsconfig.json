@@ -27,8 +27,8 @@
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@xmagic/nzx-antd": ["lib/public-api"],
-      "@xmagic/nzx-antd/*": ["lib/*"],
+      "@freezesoul/nzx-antd": ["lib/public-api"],
+      "@freezesoul/nzx-antd/*": ["lib/*"],
       "@stories": ["stories"],
       "@stories/*": ["stories/*"]
     },

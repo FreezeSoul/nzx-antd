@@ -17,7 +17,7 @@ import { Meta } from '@storybook/addon-docs';
 ## 使用
 
 ```ts
-import { NzxHttpInterceptorModule } from '@xmagic/nzx-antd/http-interceptor';
+import { NzxHttpInterceptorModule } from '@freezesoul/nzx-antd/http-interceptor';
 ```
 
 ## url 处理
@@ -56,7 +56,7 @@ export class TestService {
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpContext } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { LOADING_ENABLED } from '@xmagic/nzx-antd/service';
+import { LOADING_ENABLED } from '@freezesoul/nzx-antd/service';
 
 @Injectable()
 export class TestService {
@@ -84,8 +84,8 @@ export class TestService {
 ```ts
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpContext } from '@angular/common/http';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
-import { SYNCED_ENABLED, synced } from '@xmagic/nzx-antd/service';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
+import { SYNCED_ENABLED, synced } from '@freezesoul/nzx-antd/service';
 
 @Injectable()
 export class TestService {
@@ -124,8 +124,8 @@ export class TestService {
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { AbstractControl, FormBuilder, ValidatorFn } from '@angular/forms';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
-import { synced } from '@xmagic/nzx-antd/service';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
+import { synced } from '@freezesoul/nzx-antd/service';
 
 @Component({...})
 export class TestComponent  {

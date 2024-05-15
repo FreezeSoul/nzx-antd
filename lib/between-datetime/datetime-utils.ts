@@ -1,4 +1,4 @@
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 
 export function getStartDate(date: Date) {
   const time = new Date(date.getTime());

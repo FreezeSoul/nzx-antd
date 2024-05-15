@@ -1,6 +1,6 @@
 import { moduleMetadata, Story, Meta } from '@storybook/angular';
 import { NzxBetweenInputComponent } from './between-input.component';
-import { NzxBetweenModule } from '@xmagic/nzx-antd/between';
+import { NzxBetweenModule } from '@freezesoul/nzx-antd/between';
 import { EXCLUDE_PARAMS, SIZE_ARG_TYPE, storyFactory } from '@stories';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzInputNumberModule } from 'ng-zorro-antd/input-number';

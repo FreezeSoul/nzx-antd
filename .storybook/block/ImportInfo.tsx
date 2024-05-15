@@ -15,7 +15,7 @@ export const ImportInfo = () => {
     .replace(/(^Nzx)|((Component|Directive|Service|Pipe)$)/g, '')
     .replace(/\w([A-Z])/g, '-$1')
     .toLowerCase();
-  const importStatement = `import { ${moduleName} } from '@xmagic/nzx-antd/${importName}';`;
+  const importStatement = `import { ${moduleName} } from '@freezesoul/nzx-antd/${importName}';`;
   return (
     <SyntaxHighlighter copyable bordered language="ts">
       {importStatement}

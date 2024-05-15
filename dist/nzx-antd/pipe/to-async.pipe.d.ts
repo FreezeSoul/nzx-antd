@@ -1,6 +1,6 @@
 import { PipeTransform } from '@angular/core';
 import { Observable } from 'rxjs';
-import { FetcherService, FetchOptions } from '@xmagic/nzx-antd/service';
+import { FetcherService, FetchOptions } from '@freezesoul/nzx-antd/service';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
 import * as i0 from "@angular/core";
 /**

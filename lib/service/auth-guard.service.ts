@@ -1,9 +1,9 @@
 import { Injectable, Injector } from '@angular/core';
 import { ActivatedRouteSnapshot, Data, Route, Router, RouterStateSnapshot } from '@angular/router';
 import { Observable, of, tap } from 'rxjs';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 
 /**
  * 权限路由守卫服务, 具体数据格式,由NzxAntdService.hasAuth决定处理

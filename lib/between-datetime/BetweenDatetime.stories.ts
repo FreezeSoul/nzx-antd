@@ -2,7 +2,7 @@ import { moduleMetadata, Story, Meta } from '@storybook/angular';
 import { NzxBetweenDatetimeComponent } from './between-datetime.component';
 import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
-import { NzxBetweenModule } from '@xmagic/nzx-antd/between';
+import { NzxBetweenModule } from '@freezesoul/nzx-antd/between';
 import { EXCLUDE_PARAMS, hideControlArgType, SIZE_ARG_TYPE, storyFactory } from '@stories';
 import { action } from '@storybook/addon-actions';
 

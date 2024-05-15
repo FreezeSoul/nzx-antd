@@ -9,7 +9,7 @@ import * as i7 from "./auth.directive";
 import * as i8 from "./auth.not.directive";
 import * as i9 from "./ngx-for.directive";
 import * as i10 from "@angular/common";
-import * as i11 from "@xmagic/nzx-antd/service";
+import * as i11 from "@freezesoul/nzx-antd/service";
 export declare class NzxDirectiveModule {
     static ɵfac: i0.ɵɵFactoryDeclaration<NzxDirectiveModule, never>;
     static ɵmod: i0.ɵɵNgModuleDeclaration<NzxDirectiveModule, [typeof i1.NamedTemplate, typeof i2.ClickOnceDirective, typeof i3.FaIconDirective, typeof i4.ClickOutsideDirective, typeof i5.LetDirective, typeof i6.DownFileDirective, typeof i7.AuthDirective, typeof i8.AuthNotDirective, typeof i9.NgxFor], [typeof i10.CommonModule, typeof i11.NzxServiceModule], [typeof i1.NamedTemplate, typeof i2.ClickOnceDirective, typeof i3.FaIconDirective, typeof i4.ClickOutsideDirective, typeof i5.LetDirective, typeof i6.DownFileDirective, typeof i7.AuthDirective, typeof i8.AuthNotDirective, typeof i9.NgxFor]>;

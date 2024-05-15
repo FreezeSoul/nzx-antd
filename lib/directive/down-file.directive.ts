@@ -1,5 +1,5 @@
 import { Directive, HostListener, Input } from '@angular/core';
-import { DownloadOption, NzxDownloadService, FetchOptions } from '@xmagic/nzx-antd/service';
+import { DownloadOption, NzxDownloadService, FetchOptions } from '@freezesoul/nzx-antd/service';
 
 @Directive({
   selector: '[down-file]',

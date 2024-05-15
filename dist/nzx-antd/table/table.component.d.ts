@@ -1,15 +1,15 @@
 import { AfterContentInit, AfterViewInit, ChangeDetectorRef, ElementRef, EventEmitter, OnChanges, OnInit, QueryList, Renderer2, SimpleChange, SimpleChanges, TemplateRef, TrackByFunction } from '@angular/core';
 import { NzTableComponent, NzTableLayout, NzTablePaginationPosition, NzTablePaginationType, NzTableQueryParams, NzTableSortOrder } from 'ng-zorro-antd/table';
 import { PaginationItemRenderContext } from 'ng-zorro-antd/pagination';
-import { Any } from '@xmagic/nzx-antd';
+import { Any } from '@freezesoul/nzx-antd';
 import { CdkDragDrop } from '@angular/cdk/drag-drop';
 import { NzResizeEvent } from 'ng-zorro-antd/resizable';
 import { CellEventArg, FetchSetting, HeaderEventArg, IndexAttr, NzxColumn, NzxTableSize, PageInfo, RowEventArg, SorterResult, SpanFunc, TrTemplateArgs } from './table.type';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { NzxAntdService } from '@xmagic/nzx-antd';
-import { FetchParams } from '@xmagic/nzx-antd/service';
-import { NamedTemplate } from '@xmagic/nzx-antd/directive';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
+import { FetchParams } from '@freezesoul/nzx-antd/service';
+import { NamedTemplate } from '@freezesoul/nzx-antd/directive';
 import * as i0 from "@angular/core";
 /**
  * 基于nz-table二次封装的表格组件

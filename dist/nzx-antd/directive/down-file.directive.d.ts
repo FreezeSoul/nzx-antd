@@ -1,4 +1,4 @@
-import { DownloadOption, NzxDownloadService, FetchOptions } from '@xmagic/nzx-antd/service';
+import { DownloadOption, NzxDownloadService, FetchOptions } from '@freezesoul/nzx-antd/service';
 import * as i0 from "@angular/core";
 export declare class DownFileDirective {
     private downloadService;

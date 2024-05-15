@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpError, ResponseModel } from './http.model';
 import { Subject, Subscription } from 'rxjs';
 import { throttleTime } from 'rxjs/operators';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
-import { DEFAULT_RESPONSE_SETTING, NzxAntdService, ResponseSetting } from '@xmagic/nzx-antd'
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
+import { DEFAULT_RESPONSE_SETTING, NzxAntdService, ResponseSetting } from '@freezesoul/nzx-antd'
 
 /**
  * 退出通知

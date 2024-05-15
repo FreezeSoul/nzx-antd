@@ -1,6 +1,6 @@
 import { Directive, EmbeddedViewRef, Input, OnDestroy, TemplateRef, ViewContainerRef } from '@angular/core';
 import { of, Subscription } from 'rxjs';
-import { NzxAntdService } from '@xmagic/nzx-antd';
+import { NzxAntdService } from '@freezesoul/nzx-antd';
 import { NzSafeAny } from 'ng-zorro-antd/core/types'
 
 /**

@@ -1,5 +1,5 @@
 /**
  * Generated bundle index. Do not edit.
  */
-/// <amd-module name="@xmagic/nzx-antd/switch" />
+/// <amd-module name="@freezesoul/nzx-antd/switch" />
 export * from './public-api';

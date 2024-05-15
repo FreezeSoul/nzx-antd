@@ -8,7 +8,7 @@ import { LetDirective } from './let.directive';
 import { DownFileDirective } from './down-file.directive';
 import { AuthDirective } from './auth.directive';
 import { AuthNotDirective } from './auth.not.directive';
-import { NzxServiceModule } from '@xmagic/nzx-antd/service';
+import { NzxServiceModule } from '@freezesoul/nzx-antd/service';
 import { NgxFor } from './ngx-for.directive';
 
 const DIRECTIVE = [

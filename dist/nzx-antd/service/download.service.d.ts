@@ -1,6 +1,6 @@
 import { HttpResponse } from '@angular/common/http';
 import { FetcherService, FetchOptions } from './fetcher.service';
-import { HttpErrorBean } from '@xmagic/nzx-antd';
+import { HttpErrorBean } from '@freezesoul/nzx-antd';
 import * as i0 from "@angular/core";
 export declare class NzxDownloadService {
     protected fetcher: FetcherService;

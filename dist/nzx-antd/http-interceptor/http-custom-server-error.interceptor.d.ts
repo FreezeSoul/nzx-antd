@@ -2,7 +2,7 @@ import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/c
 import { Observable } from 'rxjs';
 import { HttpError } from './http.model';
 import { LogoutService } from './logout.service';
-import { NzxAntdService, ResponseSetting } from '@xmagic/nzx-antd';
+import { NzxAntdService, ResponseSetting } from '@freezesoul/nzx-antd';
 import * as i0 from "@angular/core";
 /**
  * 在 http-error-interceptor 后，进行自定义错误处理。
@@ -19,7 +19,7 @@ export declare class HttpCustomServerErrorInterceptor implements HttpInterceptor
      * @param error
      * @param caught 原始异常
      */
-    handleError(req: HttpRequest<HttpError>, error: HttpError, caught: Observable<HttpEvent<HttpError>>): Observable<HttpEvent<import("@xmagic/nzx-antd").HttpErrorBean<any>>>;
+    handleError(req: HttpRequest<HttpError>, error: HttpError, caught: Observable<HttpEvent<HttpError>>): Observable<HttpEvent<import("@freezesoul/nzx-antd").HttpErrorBean<any>>>;
     static ɵfac: i0.ɵɵFactoryDeclaration<HttpCustomServerErrorInterceptor, never>;
     static ɵprov: i0.ɵɵInjectableDeclaration<HttpCustomServerErrorInterceptor>;
 }

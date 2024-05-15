@@ -1,5 +1,5 @@
 /**
  * Generated bundle index. Do not edit.
  */
-/// <amd-module name="@xmagic/nzx-antd/button" />
+/// <amd-module name="@freezesoul/nzx-antd/button" />
 export * from './public-api';

@@ -7,7 +7,7 @@ import {
   ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { NzxBetweenComponent } from '@xmagic/nzx-antd/between';
+import { NzxBetweenComponent } from '@freezesoul/nzx-antd/between';
 import { NzInputNumberComponent } from 'ng-zorro-antd/input-number';
 
 @Component({

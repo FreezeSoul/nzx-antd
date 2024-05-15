@@ -2,7 +2,7 @@ import { EventEmitter, OnChanges, OnInit, SimpleChange, SimpleChanges, TemplateR
 import { NzIconRenderTemplate, NzUploadChangeParam, NzUploadFile, NzUploadListType, NzUploadTransformFileType, NzUploadType, NzUploadXHRArgs, UploadFilter, NzShowUploadList } from 'ng-zorro-antd/upload';
 import { Observable, Subscription } from 'rxjs';
 import { ControlValueAccessor } from '@angular/forms';
-import { BaseControl } from '@xmagic/nzx-antd/util';
+import { BaseControl } from '@freezesoul/nzx-antd/util';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzBytesPipe } from 'ng-zorro-antd/pipes';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';

@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { CellArgType, NzxColumnButton } from '../table.type';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { NzxUtils } from '@xmagic/nzx-antd/util';
+import { NzxUtils } from '@freezesoul/nzx-antd/util';
 
 /**
  * 处理链接的href属性

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpResponse } from '@angular/common/http';
 import { FetcherService, FetchOptions } from './fetcher.service';
 import { NzSafeAny } from 'ng-zorro-antd/core/types';
-import { HttpErrorBean } from '@xmagic/nzx-antd';
+import { HttpErrorBean } from '@freezesoul/nzx-antd';
 
 @Injectable()
 export class NzxDownloadService {

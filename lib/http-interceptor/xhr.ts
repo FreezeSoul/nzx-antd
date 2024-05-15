@@ -14,7 +14,7 @@ import {
 import { Injectable } from '@angular/core';
 import { XhrFactory } from '@angular/common';
 import { Observable, Observer } from 'rxjs';
-import { SYNCED_ENABLED } from '@xmagic/nzx-antd/service';
+import { SYNCED_ENABLED } from '@freezesoul/nzx-antd/service';
 import { NzSafeAny } from 'ng-zorro-antd/core/types'
 
 const XSSI_PREFIX = /^\)]}',?\n/;

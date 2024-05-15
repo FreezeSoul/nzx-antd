@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, EventEmitter, OnChanges, OnInit, SimpleChange, SimpleChanges, TemplateRef } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
-import { BaseControl } from '@xmagic/nzx-antd/util';
+import { BaseControl } from '@freezesoul/nzx-antd/util';
 import { NgStyleInterface, NzSafeAny, NgClassType } from 'ng-zorro-antd/core/types';
 import * as i0 from "@angular/core";
 /**

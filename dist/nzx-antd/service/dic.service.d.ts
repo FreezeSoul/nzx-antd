@@ -1,7 +1,7 @@
-import { OptionItem } from '@xmagic/nzx-antd/checkbox';
+import { OptionItem } from '@freezesoul/nzx-antd/checkbox';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { Any, NzxAntdService } from '@xmagic/nzx-antd';
+import { Any, NzxAntdService } from '@freezesoul/nzx-antd';
 import * as i0 from "@angular/core";
 export declare class DicService {
     protected http: HttpClient;
