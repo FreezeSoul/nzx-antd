@@ -1,4 +1,3 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -21,18 +20,32 @@
     "noImplicitThis": true,
     "target": "ES2022",
     "module": "es2020",
-    "lib": ["ESNext", "dom"],
+    "lib": [
+      "ESNext",
+      "dom"
+    ],
     "resolveJsonModule": true,
     "allowJs": true,
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@freezesoul/nzx-antd": ["lib/public-api"],
-      "@freezesoul/nzx-antd/*": ["lib/*"],
-      "@stories": ["stories"],
-      "@stories/*": ["stories/*"]
+      "@freezesoul/nzx-antd": [
+        "lib/public-api"
+      ],
+      "@freezesoul/nzx-antd/*": [
+        "lib/*"
+      ],
+      "@stories": [
+        "stories"
+      ],
+      "@stories/*": [
+        "stories/*"
+      ]
     },
-    "typeRoots": ["./stories/@types", "./node_modules/@types"]
+    "typeRoots": [
+      "./stories/@types",
+      "./node_modules/@types"
+    ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
