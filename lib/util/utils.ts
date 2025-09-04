@@ -142,8 +142,15 @@ class UtilsClass {
     const filter = (list: T[], children: T[]) => {
       for (const node of list) {
         const newNode: T = { ...node, [childrenName]: [] };
+        delete newNode[childrenName];
+
         if (node[childrenName]?.length) {
-          filter(node[childrenName], newNode[childrenName]);
+          const children: T[] = [];
+          filter(node[childrenName], children);
+          if (children.length) {
+            // @ts-ignore
+            newNode[childrenName] = children;
+          }
         }
 
         if (predicate(newNode)) {
@@ -167,7 +174,7 @@ class UtilsClass {
     list: T[],
     idName: keyof T = 'id',
     pidName: keyof T = 'pid',
-    childrenName: string = 'children'
+    childrenName = 'children'
   ): T[] {
     if (!list || !list.length) {
       return [];
